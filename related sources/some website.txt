@@ -1,0 +1,26 @@
+下周末前每人需完成下面工作：如果不能完成，或遇到困难需在群内讨论，务必保证开会前完成的全部任务：
+
+1. 阅读 Writing an OS in Rust 前两章 bare bones 和 interrupts。
+2. 运行前两章提供的示例代码。
+3. 详细了解代码细节，把代码改写在 RISC-V 架构上运行。
+
+参考链接：
+- Writing an OS in Rust：
+	https://os.phil-opp.com/
+- The Adventures of OS: Making a RISC-V Operating System using Rust： 
+	http://osblog.stephenmarz.com/
+
+
+
+我正在整理一些 TEE 和 OS in Rust 的相关的材料，大家可以一起学习一下，这个文档还在完善，我看到有用的也会放上来。
+
+https://mssun.notion.site/Useful-Links-of-TEE-and-OS-in-Rust-d9b4d621df4d40d8916f0d0535083ed4
+
+
+
+MIT OS课程 ：https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/
+
+
+
+
+Rust&ARM_OS 教程 ：https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials.git
