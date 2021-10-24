@@ -22,5 +22,13 @@ MIT OS课程 ：https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/
 
 
 
-
 Rust&ARM_OS 教程 ：https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials.git
+
+
+
+昨天开会提到的 Rust SGX SDK 是这个： https://github.com/apache/incubator-teaclave-sgx-sdk 里面文档有说明如何使用 simulation 模式运行 Intel SGX 应用。
+SGX 快速入门可以参考 https://sgx101.gitbook.io/sgx101/
+
+
+
+https://teaclave.apache.org/blog/2021-08-25-developing-sgx-application-with-teaclave-sgx-sdk/
