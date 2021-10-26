@@ -32,3 +32,10 @@ SGX 快速入门可以参考 https://sgx101.gitbook.io/sgx101/
 
 
 https://teaclave.apache.org/blog/2021-08-25-developing-sgx-application-with-teaclave-sgx-sdk/
+
+
+
+
+timing side-channel attacks 可以看这个 slides: https://cryptojedi.org/peter/data/shmoocon-20150118.pdf
+
+Crypto 相关的学习一下学校网络安全相关课程内容就行了

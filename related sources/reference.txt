@@ -1,7 +1,27 @@
-https://zh.wikipedia.org/wiki/%E6%97%81%E8%B7%AF%E6%94%BB%E5%87%BB
+旁路攻击：
+	https://zh.wikipedia.org/wiki/%E6%97%81%E8%B7%AF%E6%94%BB%E5%87%BB
 
 http://www.jos.org.cn/jos/article/abstract/6501
 
-https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Zertifizierung/Interpretationen/AIS_46_ECCGuide_e_pdf.pdf?__blob=publicationFile&v=1
-https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Zertifizierung/Interpretationen/AIS_46_BSI_guidelines_SCA_RSA_V1_0_e_pdf.pdf?__blob=publicationFile&v=1
+Minimum Requirements for Evaluating Side-Channel Attack Resistance of
+Elliptic Curve Implementations ：
+	https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Zertifizierung/Interpretationen/AIS_46_ECCGuide_e_pdf.pdf?__blob=publicationFile&v=1
+
+	Elliptic Curve (ECC)：
+		https://en.wikipedia.org/wiki/Elliptic-curve_cryptography
+
+Minimum Requirements for Evaluating Side-Channel Attack Resistance of 
+RSA, DSA and Diffie-Hellman Key Exchange Implementations：
+	https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Zertifizierung/Interpretationen/AIS_46_BSI_guidelines_SCA_RSA_V1_0_e_pdf.pdf?__blob=publicationFile&v=1
+
+孙老师的旁路攻击slide：
+	https://cryptojedi.org/peter/data/shmoocon-20150118.pdf
+
+
+Guideline for assessing project
+1.	Report content: the work, description of the work, difficulty of the work, how well the work was done, original objectives and how they have been met, etc.
+2.	Report structure: clarity, correctness, completeness, including format, section structures, references, presentation, language, etc.
+3.	Project management: including independence, proactiveness, time management, documentation, etc. (marked by the supervisor only)
+4.	Communications: project presentation (concise and clear, to the point, within the given time, etc.), weekly meetings with the supervisor, etc.
+
 
