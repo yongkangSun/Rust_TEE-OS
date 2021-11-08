@@ -1,7 +1,5 @@
-旁路攻击：
-	https://zh.wikipedia.org/wiki/%E6%97%81%E8%B7%AF%E6%94%BB%E5%87%BB
+旁路攻击：https://zh.wikipedia.org/wiki/%E6%97%81%E8%B7%AF%E6%94%BB%E5%87%BB
 
-http://www.jos.org.cn/jos/article/abstract/6501
 
 Minimum Requirements for Evaluating Side-Channel Attack Resistance of
 Elliptic Curve Implementations ：
@@ -25,3 +23,8 @@ Guideline for assessing project
 4.	Communications: project presentation (concise and clear, to the point, within the given time, etc.), weekly meetings with the supervisor, etc.
 
 
+有不少工具：
+- https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-weiser.pdf
+- https://github.com/agl/ctgrind
+- https://github.com/simple-crypto/SCALib
+- https://github.com/s3team/Abacus

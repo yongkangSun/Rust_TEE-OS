@@ -34,8 +34,36 @@ SGX 快速入门可以参考 https://sgx101.gitbook.io/sgx101/
 https://teaclave.apache.org/blog/2021-08-25-developing-sgx-application-with-teaclave-sgx-sdk/
 
 
-
-
 timing side-channel attacks 可以看这个 slides: https://cryptojedi.org/peter/data/shmoocon-20150118.pdf
 
 Crypto 相关的学习一下学校网络安全相关课程内容就行了
+
+
+实验对应的OS课程：https://www.xuetangx.com/learn/THU08091000267/THU08091000267/7753473/video/12680208?channel=i.area.course_list_all
+
+
+测信道攻击工具：
+- https://www.usenix.org/system/files/conference/usenixsecurity18/sec18-weiser.pdf
+- https://github.com/agl/ctgrind
+- https://github.com/simple-crypto/SCALib
+- https://github.com/s3team/Abacus、
+
+
+Minimum Requirements for Evaluating Side-Channel Attack Resistance of
+Elliptic Curve Implementations ：
+	https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Zertifizierung/Interpretationen/AIS_46_ECCGuide_e_pdf.pdf?__blob=publicationFile&v=1
+
+	Elliptic Curve (ECC)：
+		https://en.wikipedia.org/wiki/Elliptic-curve_cryptography
+
+Minimum Requirements for Evaluating Side-Channel Attack Resistance of 
+RSA, DSA and Diffie-Hellman Key Exchange Implementations：
+	https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Zertifizierung/Interpretationen/AIS_46_BSI_guidelines_SCA_RSA_V1_0_e_pdf.pdf?__blob=publicationFile&v=1
+
+
+孙老师的旁路攻击slide： https://cryptojedi.org/peter/data/shmoocon-20150118.pdf
+
+
+crypto library： https://github.com/RustCrypto
+
+
