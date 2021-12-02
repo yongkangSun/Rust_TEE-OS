@@ -86,23 +86,23 @@
 
   * ##### Creating a Signature
 
-    什么是一个signature：签名本身是40字节，由各20字节的两个值来进行表示，第一个值叫作![[公式]](https://www.zhihu.com/equation?tex=R)，第二个叫作![[公式]](https://www.zhihu.com/equation?tex=S)。值对![[公式]](https://www.zhihu.com/equation?tex=%28R%2CS%29)放到一起就是你的`ECDSA`签名。
+    The signature itself is 40 bytes, represented by two values of 20 bytes each. The first value is called  ![[公式]](https://www.zhihu.com/equation?tex=R)，the second one is called![[公式]](https://www.zhihu.com/equation?tex=S). Pair ![[公式]](https://www.zhihu.com/equation?tex=%28R%2CS%29)together is your `ECDSA` signature。
 
-    生成过程：
+    generative process：
 
-    - 产生一个随机数![[公式]](https://www.zhihu.com/equation?tex=k)，20字节
-    - 利用点乘法计算![[公式]](https://www.zhihu.com/equation?tex=P%3Dk+%5Ctimes+G)
-    - 点![[公式]](https://www.zhihu.com/equation?tex=P)的 ![[公式]](https://www.zhihu.com/equation?tex=x)坐标即为![[公式]](https://www.zhihu.com/equation?tex=R)
-    - 利用SHA1计算信息的哈希，得到一个20字节的巨大的整数![[公式]](https://www.zhihu.com/equation?tex=z)
-    - 利用方程![[公式]](https://www.zhihu.com/equation?tex=S%3Dk%5E%7B-1%7D%28z+%2B+dA+%5Ctimes+R%29+%5Cmod+p)计算![[公式]](https://www.zhihu.com/equation?tex=S)
+    - Generate a random number ![[公式]](https://www.zhihu.com/equation?tex=k)，20bytes
+    - Calculate ![[公式]](https://www.zhihu.com/equation?tex=P%3Dk+%5Ctimes+G)through dot product.
+    - Point ![[公式]](https://www.zhihu.com/equation?tex=P)' ![[公式]](https://www.zhihu.com/equation?tex=x)coordinate is![[公式]](https://www.zhihu.com/equation?tex=R)
+    - Using `SHA1` to calculate the hash of the message，then get a huge integer of 20 bytes![[公式]](https://www.zhihu.com/equation?tex=z)
+    - Using the formula ![[公式]](https://www.zhihu.com/equation?tex=S%3Dk%5E%7B-1%7D%28z+%2B+dA+%5Ctimes+R%29+%5Cmod+p) to calculate ![[公式]](https://www.zhihu.com/equation?tex=S)
 
   
 
   * ##### **Verifying the Signature**
 
-    将公钥和签名还有hash值代入下式中即可完成验证。
+    The public key, signature and hash value are substituted into the following formula to complete the verification.
 
-    ![](C:\Users\jerichosun\Desktop\Snipaste_2021-11-21_02-38-23.png)
+    ![](E:\GitHub\repositories\Rust_TEE-OS\ecdsa_slides\pic\Snipaste_2021-11-21_02-38-23.png)
 
     ###### 数学推导：
 
